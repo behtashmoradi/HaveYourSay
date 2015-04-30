@@ -10,5 +10,7 @@ namespace HaveYourSay.ApplicationService.Contract
     public interface ISubjectProvider
     {
         ISubject GetSubject(Guid subjectId);
+
+        IEnumerable<IObjective> GetObjectives(Guid subjectId);
     }
 }
