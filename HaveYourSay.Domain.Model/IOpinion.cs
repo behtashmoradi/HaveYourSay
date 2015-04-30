@@ -1,5 +1,5 @@
 ﻿
-namespace HaveYourSay.ApplicationService.Contract
+namespace HaveYourSay.Domain.Model
 {
     public interface IOpinion
     {

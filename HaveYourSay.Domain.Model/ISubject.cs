@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace HaveYourSay.ApplicationService.Contract
+namespace HaveYourSay.Domain.Model
 {
     public interface ISubject
     {

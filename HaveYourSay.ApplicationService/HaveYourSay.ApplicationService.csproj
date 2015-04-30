@@ -47,6 +47,14 @@
       <Project>{9500408b-01aa-41bb-8481-db95aaccbd9d}</Project>
       <Name>HaveYourSay.ApplicationService.Contract</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HaveYourSay.Domain.Model\HaveYourSay.Domain.Model.csproj">
+      <Project>{6206ed89-6f36-4b9e-a35d-b96a9f7fdc14}</Project>
+      <Name>HaveYourSay.Domain.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HaveYourSay.Repository\HaveYourSay.Repository.csproj">
+      <Project>{81b4f409-6a57-4dcc-a616-5626dd892ee4}</Project>
+      <Name>HaveYourSay.Repository</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

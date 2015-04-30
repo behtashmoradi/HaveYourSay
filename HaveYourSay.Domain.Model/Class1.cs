@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HaveYourSay.ApplicationService.Contract
+namespace HaveYourSay.Domain.Model
 {
-    interface IObjective
+    public class Class1
     {
     }
 }
