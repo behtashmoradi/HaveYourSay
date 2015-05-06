@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace HaveYourSay.Domain.Model
 {
-    public class Class1
+    public class Subscription
     {
+        public Guid Id { get; private set; }
+        public string Name { get; set; }
     }
 }

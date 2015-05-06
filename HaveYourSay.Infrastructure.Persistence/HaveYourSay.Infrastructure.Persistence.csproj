@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{81B4F409-6A57-4DCC-A616-5626DD892EE4}</ProjectGuid>
+    <ProjectGuid>{E9BA9305-E925-420F-86FF-A79A8E63AD83}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HaveYourSay.Repository</RootNamespace>
-    <AssemblyName>HaveYourSay.Repository</AssemblyName>
+    <RootNamespace>HaveYourSay.Infrastructure.Persistence</RootNamespace>
+    <AssemblyName>HaveYourSay.Infrastructure.Persistence</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -64,18 +64,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SubjectRepository.cs" />
+    <Compile Include="Model\Client.cs" />
+    <Compile Include="Model\Objective.cs" />
+    <Compile Include="Model\QuantitiveObjective.cs" />
+    <Compile Include="Model\QuantitiveRate.cs" />
+    <Compile Include="Model\Rate.cs" />
+    <Compile Include="Model\Subject.cs" />
+    <Compile Include="Model\Subscription.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\HaveYourSay.Domain.Model\HaveYourSay.Domain.Model.csproj">
-      <Project>{6206ed89-6f36-4b9e-a35d-b96a9f7fdc14}</Project>
-      <Name>HaveYourSay.Domain.Model</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\HaveYourSay.Infrastructure.Persistence\HaveYourSay.Infrastructure.Persistence.csproj">
-      <Project>{e9ba9305-e925-420f-86ff-a79a8e63ad83}</Project>
-      <Name>HaveYourSay.Infrastructure.Persistence</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
